@@ -13,8 +13,7 @@ parse_git_branch() {
 
 # User specific aliases and functions
 
-export PS1='\[\033[01;34m\][\[\033[01;31m\]\u@\h\[\033[01;34m\]] [\[\033[01;31m\]\t\[\033[01;34m\]] [\[\033[01;31m\]\w\[\033[01;34m\]] $(parse_git_branch)
-$\[\033[00m\]'
+export PS1='\[\033[01;34m\][\[\033[01;31m\]\u@\h\[\033[01;34m\]] [\[\033[01;31m\]\t\[\033[01;34m\]] [\[\033[01;31m\]\w\[\033[01;34m\]] $(parse_git_branch) $ \[\033[00m\]'
 
 export SVN_EDITOR=vim
 export EDITOR=vim
